@@ -1,34 +1,34 @@
 dependencies:
-  '@tsfun/function': 0.0.5
+  '@tsfun/function': 0.0.6
   '@types/node': 13.7.0
   string-template-format-base: 'link:../string-template-format-base'
   tslib: 1.10.0
 lockfileVersion: 5.1
 packages:
-  /@tsfun/function/0.0.5:
+  /@tsfun/function/0.0.6:
     dependencies:
-      '@types/node': 13.5.2
+      '@types/node': 13.7.4
       ts-pipe-compose: 0.1.11
-      tslib: 1.10.0
+      tslib: 1.11.0
     dev: false
     resolution:
-      integrity: sha512-x+akqcWUToH4Cqt1sNF6sD8RpIvB6tZsSigzcBEfQwhwHbsoWauraXVYRE1lUIv2ESwbnnX4/HP01Es9h2wQKA==
-  /@types/node/12.12.24:
+      integrity: sha512-pWK+ShysFOvuR1jJftihDSo4VD0kMlKuUOVUD4G0fpj8VUoYdtJsEybacmuBClsGf7vUJx10H6nVXT8xl9pYIA==
+  /@types/node/12.12.28:
     dev: false
     resolution:
-      integrity: sha512-1Ciqv9pqwVtW6FsIUKSZNB82E5Cu1I2bBTj1xuIHXLe/1zYLl3956Nbhg2MzSYHVfl9/rmanjbQIb7LibfCnug==
-  /@types/node/13.5.2:
-    dev: false
-    resolution:
-      integrity: sha512-Fr6a47c84PRLfd7M7u3/hEknyUdQrrBA6VoPmkze0tcflhU5UnpWEX2kn12ktA/lb+MNHSqFlSiPHIHsaErTPA==
+      integrity: sha512-g73GJYJDXgf0jqg+P9S8h2acWbDXNkoCX8DLtJVu7Fkn788pzQ/oJsrdJz/2JejRf/SjfZaAhsw+3nd1D5EWGg==
   /@types/node/13.7.0:
     dev: false
     resolution:
       integrity: sha512-GnZbirvmqZUzMgkFn70c74OQpTTUcCzlhQliTzYjQMqg+hVKcDnxdL19Ne3UdYzdMA/+W3eb646FWn/ZaT1NfQ==
+  /@types/node/13.7.4:
+    dev: false
+    resolution:
+      integrity: sha512-oVeL12C6gQS/GAExndigSaLxTrKpQPxewx9bOcwfvJiJge4rr7wNaph4J+ns5hrmIV2as5qxqN8YKthn9qh0jw==
   /ts-pipe-compose/0.1.11:
     dependencies:
-      '@types/node': 12.12.24
-      tslib: 1.10.0
+      '@types/node': 12.12.28
+      tslib: 1.11.0
     dev: false
     engines:
       node: '>= 8.9.0'
@@ -38,8 +38,12 @@ packages:
     dev: false
     resolution:
       integrity: sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
+  /tslib/1.11.0:
+    dev: false
+    resolution:
+      integrity: sha512-BmndXUtiTn/VDDrJzQE7Mm22Ix3PxgLltW9bSNLoeCY31gnG2OPx0QqJnuc9oMIKioYrz487i6K9o4Pdn0j+Kg==
 specifiers:
-  '@tsfun/function': ^0.0.5
+  '@tsfun/function': ^0.0.6
   '@types/node': ^13.7.0
   string-template-format-base: ^0.1.4
   tslib: ^1.10.0
